@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_radius"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Send your feedback"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_radius1"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Please Send Us Your Feedback"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:hint="Feedback"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_radius2"
+        android:layout_height="wrap_content"/>
+    <TableRow android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent">
+
+        <Button android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/bt_notks"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gray"
+            android:background="@drawable/bg_radius2"
+            android:text="NO,Thank You"/>
+
+        <Button android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:id="@+id/btSend"
+            android:backgroundTint="@color/blue"
+            android:background="@drawable/bg_radius2"
+            android:text="Send"/>
+    </TableRow>
+
+</LinearLayout>
